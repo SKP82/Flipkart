@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body>
+  <!-- nav bar -->
+  <div class="navBar">
+
+    <div class="logoSection">
+      <div>
+        <img alt="Flipkart Logo, symbol, meaning, history, PNG, brand" id="dimg_10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1bEzXzgyllVe2Ea0AWf4G33ZZ4Up1drLA8713-yc5oXngi8Kswf5sQj8&amp;s" data-csiid="3" data-atf="1" data-ilt="1713265789392" style="height: 20px;">
+      </div>
+
+      <div>
+        <p class="logo-text">Explore <span id="plus">Plus+</span></p>
+      </div>
+    </div>
+
+    <div class="searchBox">
+      <input class="input" type="text" placeholder="Search for products, brands and more" />
+
+      <div class="search-logo">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    
+    <div class="loginBox">
+        <a href="./login.html">Login</a>
+      </div>
+   
+
+      <div class="becomeSellerBox">
+       <a href="./become a seller">Become a seller</a>
+      </div>
+
+      <div>
+        <a href="./cart.html">Cart</a>
+      </div>
+
+  
+      <div class="moreBox">
+       <a href="./more">More</a>
+      </div>
+
+  
+
+      </div>
+    </div>
+  </header>
+
+<!-------------- MENU BAR -------------->
+
+
+<div class="belowNavBar" style="background-color: whitesmoke;height: 130px;width: 2300px;margin-left: 100px;">
+
+<div class="smallCard">
+  <img class="_2puWtW _3a3qyb" alt="Grocery" src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100">
+  <p style="margin-left: 10px;">Grocery</p>
+
+</div>
+
+<div style="margin-left: 30px;">
+  <a href="http://127.0.0.1:5500/mobile.html" style="text-decoration: none; color: black;"><img class="_2puWtW _3a3qyb" alt="Mobiles" src="https://rukminim2.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100">
+    <p style="margin-left: 10px;">Mobiles</p></a>
+</div>
+
+<div class="smallCard" style="margin-left: 30px;">
+  <img class="_2puWtW _3a3qyb" alt="Fashion" src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100">
+  <p style="margin-left: 10px;">Fashion</p>
+</div>
+
+<div class="smallCard" style="margin-left: 30px;">
+  <img class="_2puWtW _3a3qyb" alt="Electronics" src="https://rukminim2.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100">
+  <p style="margin-left: 8px;">Laptops</p>
+</div>
+
+<div class="smallCard" style="margin-left: 30px;">
+  <img class="_2puWtW _3a3qyb" alt="Home &amp; Furniture" src="https://rukminim2.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100">
+  <p style="margin-left: 17px;">Home</p>
+</div>
+
+<div class="smallCard" style="margin-left: 30px;">
+  <img class="_2puWtW _3a3qyb" alt="Appliances" src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100">
+  <p style="margin-left: 7px;">Electronics</p>
+</div>
+
+<div class="smallCard" style="margin-left: 30px;">
+  <img class="_2puWtW _3a3qyb" alt="Travel" src="https://rukminim2.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100">
+  <p style="margin-left: 15px;">Travel</p>
+</div>
+
+<div class="smallCard" style="margin-left: 30px;">
+  <img class="_2puWtW _3a3qyb" alt="Beauty, Toys &amp; More" src="https://rukminim2.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100">
+  <p style="margin-left: 25px;">Toys</p>
+</div>
+
+<div class="smallCard" style="margin-left: 30px;">
+  <img class="_2puWtW _3a3qyb" alt="Two Wheelers" src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100">
+  <p style="margin-left: 19px;">Bikes</p>
+</div>
+
+</div>
+<div class="line"></div> 
+
   <div class="heroSection">
 
   </div>
@@ -178,5 +290,111 @@
       <p class="buyNowText">Buy Now</p>
     </div>
   </div>
+
+   footer 
+  <footer class="bg-black">
+    <div class=" border-b text-white flex w-auto mx-[30px] px-[50px] py-[30px] text-[12px] gap-8">
+        
+        <div>
+            <h3 class="text-slate-400">ABOUT</h3>
+            <ul>
+                <li><a href="Contact Us" class="hover:underline">Contact Us</a></li>
+                <li><a href="" class="hover:underline">About Us</a></li>
+                <li><a href="" class="hover:underline">Careers</a></li>
+                <li><a href="" class="hover:underline">Flipkart Stories</a></li>
+                <li><a href="" class="hover:underline">Press</a></li>
+                <li><a href="" class="hover:underline">Corporate Information</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-slate-400">GROUP COMPANIES</h3>
+            <ul>
+                <li><a href="Contact Us" class="hover:underline">Contact Us</a></li>
+                <li><a href="" class="hover:underline">Myntra</a></li>
+                <li><a href="" class="hover:underline">Flipkart Wholesale</a></li>
+                <li><a href="" class="hover:underline">Cleartrip</a></li>
+                <li><a href="" class="hover:underline">Shopsy</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-slate-400">HELP</h3>
+            <ul>
+                <li><a href="Contact Us" class="hover:underline">Payments</a></li>
+                <li><a href="" class="hover:underline">Cancellation & Retums</a></li>
+                <li><a href="" class="hover:underline">FAQ</a></li>
+                <li><a href="" class="hover:underline">Report Infringement</a></li>
+            </ul>
+        </div>
+
+        <div >
+            <h3 class="text-slate-400">CONSUMER POLICY</h3>
+            <ul>
+                <li><a href="Contact Us" class="hover:underline">Cancellation & Returns</a></li>
+                <li><a href="" class="hover:underline">Terms Of Use</a></li>
+                <li><a href="" class="hover:underline">Security</a></li>
+                <li><a href="" class="hover:underline">Privacy</a></li>
+                <li><a href="" class="hover:underline">Sitemap</a></li>
+                <li><a href="" class="hover:underline">Grievance Redressal</a></li>
+                <li><a href="" class="hover:underline">EPR Compliance</a></li>
+            </ul>
+        </div>
+        <div class="flex gap-5 border-r"></div>
+
+        <div class="">
+            
+            <h3 class="text-slate-400">MAIL US:</h3>
+            <P>Flipkart Internet Private Lmlted,
+                Buildings Alyssa, Begonia &
+                Clove Embassy Tech Village,
+                Outer Ring Road, Devarabeesanahalli Village,
+                Bengaluru, 560103,
+                Karnataka, India
+            </P>
+            <div class="text-slate-400">SOCIAL:
+                <p class="flex">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjkzMzEgMjFDMTcuOTAzNyAyMSAyMS45MzMxIDE2Ljk3MDYgMjEuOTMzMSAxMkMyMS45MzMxIDcuMDI5NDQgMTcuOTAzNyAzIDEyLjkzMzEgM0M3Ljk2MjU0IDMgMy45MzMxMSA3LjAyOTQ0IDMuOTMzMTEgMTJDMy45MzMxMSAxNi45NzA2IDcuOTYyNTQgMjEgMTIuOTMzMSAyMVoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE2LjY4MzEgOC4yNUgxNS4xODMxQzE0LjU4NjQgOC4yNSAxNC4wMTQxIDguNDg3MDUgMTMuNTkyMSA4LjkwOTAxQzEzLjE3MDIgOS4zMzA5NyAxMi45MzMxIDkuOTAzMjYgMTIuOTMzMSAxMC41VjIxIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjkzMzExIDEzLjVIMTUuOTMzMSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" alt="">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE4M18yMCkiPgo8cGF0aCBkPSJNMTMuNTQzNiAxMC42MTc5TDIwLjA5NzEgM0gxOC41NDQxTDEyLjg1MzcgOS42MTQ0OEw4LjMwODg3IDNIMy4wNjY4OUw5LjkzOTY0IDEzLjAwMjNMMy4wNjY4OSAyMC45OTA4SDQuNjE5OTRMMTAuNjI5MSAxNC4wMDU2TDE1LjQyODggMjAuOTkwOEgyMC42NzA4TDEzLjU0MzIgMTAuNjE3OUgxMy41NDM2Wk0xMS40MTY1IDEzLjA5MDRMMTAuNzIwMiAxMi4wOTQ0TDUuMTc5NTMgNC4xNjkxMUg3LjU2NDkxTDEyLjAzNjMgMTAuNTY1MUwxMi43MzI2IDExLjU2MTFMMTguNTQ0OCAxOS44NzQ4SDE2LjE1OTVMMTEuNDE2NSAxMy4wOTA4VjEzLjA5MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE4M18yMCI+CjxyZWN0IHg9IjMuMDY2ODkiIHk9IjMiIHdpZHRoPSIxNy42MDM5IiBoZWlnaHQ9IjE4IiByeD0iMC4yIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=" alt="">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg" alt="">
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="text-slate-400">Registered Office Address:</h3>
+           <p>Flipkart Internet Private Limited,
+            Buildings Alyssa, Begonia &
+            Clove Embassy Tech Village,
+            Outer Ring Road, Devarabeesanahalli Village,
+            Bengaluru, 560103,
+            Karnataka, India
+            CIN : U51109KA2012PTC066107
+            Telephone: <span class="text-blue-500">044-45614700</span> </p>
+        </div>
+    </div>
+    <div class="flex px-10 gap-5">
+        <div class="flex">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg" alt="">
+            <p class="text-white">Become a seller</p>
+        </div>
+        <div class="flex">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg" alt="">
+            <p class="text-white">Advertise</p>
+        </div>
+        <div class="flex">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg" alt="">
+            <p class="text-white">Gift Cards ? </p>
+        </div>
+        <div class="flex">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg" alt="">
+            <p class="text-white">Help Center</p>
+        </div>
+        <p class="text-white">&COPY;2007-2024</p>
+        <div>
+            <img class="ml-16" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg" alt="">
+        </div>
+    </div>
+</footer>
 </body>
 </html>
